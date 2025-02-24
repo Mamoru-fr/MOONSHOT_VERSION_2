@@ -74,58 +74,21 @@
 
 ### B. Accounting Part
 
-/// To translate
-
-- Voir les comptes
-- Écrire de nouvelle ligne dans la base de données
-- Entrée manuellement des factures
-- Entrée manuellement des règlements
-
-/// To translate
+// TODO
 
 ### C. Management Part
 
 #### 1. Human Resources
 
-/// To translate
-
-- Avoir la listes des employers
-- Informations sur les employers :
-  - Ancienneté
-  - Sallaire / Coût pour l'entreprise
-  - Rôles
-  - Accès sur le logiciel
-  - Listes des projets avec les rôles attribuer dessus
-
-/// To translate
+// TODO
 
 #### 2. Documents Creation
 
-/// To translate
-
-- Création de documents
-  - Facture
-    - Convertir des demandes d'entreprise en facture
-    - Création manuelle
-  - Devis
-    - Convertir des demandes d'entreprise en devis
-    - Création manuelle
-  - Avoir
-    - Convertir un facture en avoir
-    - Création manuelle
-  - Bon de commandes
-    - Convertir à partir de demande de d'entreprise
-    - Création manuelle
-
-/// To translate
+// TODO
 
 ## D. Project Overview
 
-/// To translate
-
-
-
-/// To translate
+// TODO
 
 ## E. Social Media B2B / B2C
 
@@ -174,6 +137,33 @@
 Un Assistant d'entreprise
 
 - Permettre toutes les fonctionalités de comptabilitée et de gestion
+  - Comptabilitée
+    - Voir les comptes
+    - Écrire de nouvelle ligne dans la base de données
+    - Entrée manuellement des factures
+    - Entrée manuellement des règlements
+  - Gestion
+    - Création de documents
+    - Facture
+      - Convertir des demandes d'entreprise en facture
+      - Création manuelle
+    - Devis
+      - Convertir des demandes d'entreprise en devis
+      - Création manuelle
+    - Avoir
+      - Convertir un facture en avoir
+      - Création manuelle
+    - Bon de commandes
+      - Convertir à partir de demande de d'entreprise
+      - Création manuelle
+  - Gestion d'un effectif
+    - Avoir la listes des employers
+    - Informations sur les employers :
+      - Ancienneté
+      - Sallaire / Coût pour l'entreprise
+      - Rôles
+      - Accès sur le logiciel
+      - Listes des projets avec les rôles attribuer dessus
 - Permettre d'organiser tous les projets sur la web app
   - Définir :   
     - Le chef de projet
