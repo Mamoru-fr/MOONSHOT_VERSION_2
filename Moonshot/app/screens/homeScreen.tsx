@@ -5,7 +5,7 @@ import { ThemedText } from "@/components/ThemedText";
 import { ThemeColors, useThemeColors } from "@/hooks/useThemeColors";
 import { Platform, StyleSheet } from "react-native";
 
-export default function Index() {
+const HomeScreen = () => {
     const colors = useThemeColors()
     const theme = ThemeColors()
     return (
@@ -14,11 +14,13 @@ export default function Index() {
                 <ThemedText variant='headline' color="grayLight">Moonshot</ThemedText>
             </Row>
             <Box style={styles.body}>
-            
+                <ThemedText variant='body3' color='grayLight'>This is the Home Page</ThemedText>
             </Box>
         </RootView>
     )
-}
+} 
+
+export default HomeScreen;
 
 const styles = StyleSheet.create({
     body: {
