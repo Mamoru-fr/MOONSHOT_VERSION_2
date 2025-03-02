@@ -1,8 +1,9 @@
 import { RootView } from "@/components/RootView";
 import { ThemedText } from "@/components/ThemedText";
-import { navigate } from "expo-router/build/global-state/routing";
 import { useState } from "react"
 import { Button, StyleSheet, TextInput } from "react-native";
+
+export const [connexion, setconnexion ] = useState(false)
 
 const LoginScreen = () => {
     const [username, setUsername] = useState('');
@@ -37,6 +38,8 @@ const LoginScreen = () => {
     )
 };
 
+export default LoginScreen;
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -56,5 +59,3 @@ const styles = StyleSheet.create({
         paddingHorizontal: 8,
     },
 });
-
-export default LoginScreen;
